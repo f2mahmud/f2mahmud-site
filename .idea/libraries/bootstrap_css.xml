@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="bootstrap css" type="javaScript">
+    <properties>
+      <sourceFilesUrls>
+        <item url="file://$PROJECT_DIR$/../bootstrap.min.css" />
+      </sourceFilesUrls>
+    </properties>
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../bootstrap.min.css" />
+    </CLASSES>
+    <SOURCES />
+  </library>
+</component>

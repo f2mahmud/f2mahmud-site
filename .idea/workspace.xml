@@ -2,16 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="00deb2e9-cc41-402e-b62b-d0e8955ee000" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gitHubRunner/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gitHubRunner/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gitHubRunner/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gitHubRunner/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gitHubRunner/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gitHubRunner/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gitHubRunner/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gitHubRunner/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/bootstrap_css.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitHubRunner/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitHubRunner/migrations/0002_auto_20191124_1252.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitHubRunner/migrations/0003_auto_20191124_1255.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/migrations/0002_auto_20191207_0240.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/css/animated-burning-guitar-on-fire15.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/css/common.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/static/css/home.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/templates/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/templates/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/home/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/personalSiteDjango.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/personalSiteDjango.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitHubRunner/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/gitHubRunner/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitHubRunner/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/gitHubRunner/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/personalSiteDjango/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/personalSiteDjango/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/personalSiteDjango/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/personalSiteDjango/urls.py" afterDir="false" />
     </list>
@@ -42,6 +57,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -55,16 +72,30 @@
       </set>
     </option>
   </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
   <component name="ProjectId" id="1TGq19f63oT0D1l4SLRMwt0npJE" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="list.type.of.created.stylesheet" value="DjangoTemplate" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/home/static/css" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -78,7 +109,10 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Django server.personalSiteDjango">
+    <configuration name="JS Debugger" type="JavascriptDebugType" uri="http://localhost:8000/" useFirstLineBreakpoints="true">
+      <method v="2" />
+    </configuration>
     <configuration name="personalSiteDjango" type="Python.DjangoServer" factoryName="Django server">
       <module name="personalSiteDjango" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -96,13 +130,17 @@
       <option name="port" value="8000" />
       <option name="host" value="localhost" />
       <option name="additionalOptions" value="" />
-      <option name="browserUrl" value="" />
-      <option name="runTestServer" value="false" />
+      <option name="browserUrl" value="http://localhost:8000/" />
+      <option name="runTestServer" value="true" />
       <option name="runNoReload" value="false" />
       <option name="useCustomRunCommand" value="false" />
       <option name="customRunCommand" value="" />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Django server.personalSiteDjango" />
+      <item itemvalue="JavaScript Debug.JS Debugger" />
+    </list>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -115,7 +153,9 @@
       <option name="presentableId" value="Default" />
       <updated>1564537804766</updated>
       <workItem from="1573096567702" duration="28000" />
-      <workItem from="1573096616060" duration="2446000" />
+      <workItem from="1573096616060" duration="3619000" />
+      <workItem from="1574344123636" duration="220000" />
+      <workItem from="1574434104995" duration="14886000" />
     </task>
     <servers />
   </component>
@@ -127,7 +167,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

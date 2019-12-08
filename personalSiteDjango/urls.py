@@ -23,7 +23,8 @@ from django.conf.urls.static import static
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('projects/', include('gitHubRunner.urls')),
-    path('', RedirectView.as_view(url='welcome/', permanent=True)),
+    path('home/', include('home.urls')),
+    path('', RedirectView.as_view(url='home/', permanent=True)),
 ] + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
 
 
