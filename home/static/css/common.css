@@ -7,4 +7,14 @@
 body{
     height: 100vh;
     width: 100vw;
+    background: azure;
+}
+
+.footer{
+    height: 15%;
+    color: silver;
+}
+
+.main-content{
+    background: azure;
 }

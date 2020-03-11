@@ -1,5 +1,5 @@
 from django.apps import AppConfig
 
 
-class GithubrunnerConfig(AppConfig):
+class GithubRunnerConfig(AppConfig):
     name = 'gitHubRunner'

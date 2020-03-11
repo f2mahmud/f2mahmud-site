@@ -4,18 +4,24 @@ from django.shortcuts import render
 from home.models import Education, WorkExperience
 
 
-def index(request):
-    """View function for home page of site."""
+def home(request):
+    # Render the HTML template index.html with the data in the context variable
+    return render(request, 'home.html')
 
+
+def homeCS(request):
     # Generate counts of some of the main objects
     education_entries = Education.objects.all()
     work_entries = WorkExperience.objects.all()
 
-
     context = {
+        'work_index': 0,
         'education_entries': education_entries,
         'work_entries': work_entries,
     }
 
-    # Render the HTML template index.html with the data in the context variable
-    return render(request, 'home.html', context=context)
+    return render(request, 'cs-home.html', context=context)
+
+
+def homeMusic(request):
+    return render(request, 'music-home.html', )

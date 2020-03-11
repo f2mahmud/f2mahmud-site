@@ -8,35 +8,58 @@
 
 {% block content %}
 
-    <div class="h-100 w-100">
+    <div class="h-100 w-100 dark-background body">
 
-        <div id="home-header" class="w-100">
+        <div id="home-header" class="w-100 h-25 float-none">
 
-            <h2>Welcome</h2>
+            <h2>Hello!</h2>
+            <p>
+                Welcome to my personal site! This is where I (will) try to display all my personal work starting from my
+                professional endeavours as a student of the field of Computer Science to comparatively lighter aspects
+                of my life such as my activities regarding some of my favourite hobbies. I hope you enjoy wandering
+                around this space and find something that will motivate you to get in touch with me, whether it is an
+                idea that might take us on a trip to Jupiter or a game of FIFA(FYI, I am <b>VERY</b> good at it).
+                Looking forward to talking to you!
+            </p>
+
+            <p>
+                Note: I have an (weird?) attraction to the styles and looks of the 90s. Some of my favourite music and
+                video games are from that time. As a result I chose to take a retro approach with this part of the site.
+                It makes me nostalgic for some reason, even though I have little to no recollection of those days (I was
+                5 when the decade ended).
+            </p>
 
         </div>
 
-        <div class="h-50 w-100 p-0 m-0 d-flex" id="section-selector">
+        <div class="d-flex" id="section-selector">
 
-            <div id="section-music" class="h-100 w-25 d-inline-block">
+            <a href="music" id="section-music" class="d-inline-block">
+                <img src="http://bestanimations.com/Music/Instruments/Guitars/animated-burning-guitar-on-fire15.gif#.Xe8Ceb-OtJY.link"
+                     class="w-100 h-100"/>
+            </a>
 
-            </div>
+            <a href="cs" class="d-inline-block" id="section-cs">
+                <img src="http://bestanimations.com/Computers/funny-computer-matrix-animated-gif-42.gif#.Xe8IULbatY0.link"
+                     class="h-100 w-100">
+            </a>
 
-            <div id="section-cs" class="h-100 w-50 d-inline-block">
-
-            </div>
-
-            <div id="section-gaming" class="h-100 w-25 d-inline-block">
-
+            <div id="section-gaming" class="d-inline-block">
+                <img src="http://bestanimations.com/Games/Computer/MortalCombat/mortal-kombat-animated-gif-7.gif#.Xe8JXCYp2q8.link"
+                     class="h-100 w-100">
             </div>
 
         </div>
 
-        <div class="h-25 w-100">
-
+        <div class="modal-footer footer">
+            <a>
+                There is always room to grow. If you feel that there might be ways that I can make any part of my site
+                look better to you, whether it is putting something at a certain place or maybe even teach me a
+                programming practice, feel free to contact me here
+            </a>
         </div>
 
     </div>
+
 
 
 {% endblock %}

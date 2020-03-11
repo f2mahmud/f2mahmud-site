@@ -1,20 +1,34 @@
-#catalog-selector{
+#home-header{
+    text-align: center;
+    color: deepskyblue;
+    font-family: "American Typewriter";
+    overflow: scroll;
+}
+
+#section-selector{
     background-color: aliceblue;
+    height: 60%;
 }
 
 #section-music{
-    background-color: black;
+    height: 100%;
+    width: 33.3%;
 }
 
 #section-cs{
-    background-color: red;
+    height: 100%;
+    width: 45%;
 }
 
 #section-gaming{
-    background-color: black;
+    background: black;
+    width: 33.3%;
+    height: 100%;
 }
 
-#home-header{
-    text-align: center;
+
+
+body{
+    background: black;
 }
 

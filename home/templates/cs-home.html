@@ -1,0 +1,36 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block title %}<title>f2mahmud | CS</title>{% endblock %}
+
+{% block libraries %}
+    <link rel="stylesheet" href="{% static 'css/cs-home.css' %}">
+{% endblock %}
+
+{% block content %}
+
+    <div class="title w-50 mx-auto">
+        <h2>The Techy Stuff</h2>
+    </div>
+
+    <div id="exp-container" class="main-content w-75 mx-auto my-5 h-100 overflow-auto">
+
+        <div id="work-experiences" class="h-75">
+            {% for experience in work_entries %}
+                <div id="exp-detail" class="my-xl-5 w-100 my-auto h-100">
+                    <img class="h-25 w-100 mx-auto" src="{{ experience.logo.url }}"/>
+                    <h1 class="mx-auto">{{ experience.companyName }}</h1>
+                    <p>{{ experience.startDate }} - {{ experience.endDate }}</p>
+                    <strong>{{ experience.position }}</strong>
+                    <p class="align-left">{{ experience.description | safe }}</p>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+
+    <div id="pointer-container">
+
+    </div>
+
+
+{% endblock %}

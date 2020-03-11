@@ -12,8 +12,9 @@ class Education(models.Model):
 
 
 class WorkExperience(models.Model):
-    position = models.CharField(null=False, max_length=20)
-    companyName = models.TextField()
+    position = models.CharField(null=False, max_length=30)
+    companyName = models.TextField(max_length=40)
+    logo = models.ImageField(upload_to="gallery", null=True)
     startDate = models.DateField()
     endDate = models.DateField(null=True)
     description = models.TextField(max_length=4000)

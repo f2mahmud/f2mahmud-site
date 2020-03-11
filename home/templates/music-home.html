@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+
+{% block title %}<title>Music | f2mahmud</title>{% endblock %}
+{% block libraries %}
+<script src="https://cdn.tiny.cloud/1/fqb1rn6sbutdnzdh4bzsclkh1tod0s9ku4v3k3iguvmdmwns/tinymce/5/tinymce.min.js" referrerpolicy="origin"></script>
+<script>
+    tinymce.init({
+    selector: 'textarea',
+      plugins: 'a11ychecker advcode casechange formatpainter linkchecker lists checklist media mediaembed pageembed permanentpen powerpaste table advtable tinycomments tinymcespellchecker',
+      toolbar: 'a11ycheck addcomment showcomments casechange checklist code formatpainter pageembed permanentpen table',
+      toolbar_drawer: 'floating',
+      tinycomments_mode: 'embedded',
+      tinycomments_author: 'Author name',
+    });
+  </script>
+{% endblock %}
+
+{% block content %}
+    <textarea class="h-50" id="mytextarea">Next, use our Get Started docs to setup Tiny!</textarea>
+    
+
+{% endblock %}
