@@ -2,7 +2,31 @@
     text-align: center;
 }
 
+#exp-detail ul li {
+    text-align: left;
+}
+
+#exp-container {
+    height: 92%;
+}
+
+.title{
+    text-align: center;
+    padding-top: 1%;
+    height: 10%;
+}
+
+#work-experiences{
+    height: 90%;
+}
+
 body {
+    padding-top: 5%;
     background-size: cover;
     background: url("../images/cs-background.jpg") no-repeat center center;
+}
+
+.employer-logo{
+    min-height: 200px;
+    min-width: 400px;
 }

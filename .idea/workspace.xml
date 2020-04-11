@@ -2,44 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="00deb2e9-cc41-402e-b62b-d0e8955ee000" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/db/images/bombardier.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/db/images/clearbridgemobile.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/db/images/ims.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/db/images/lyricfind.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/db/images/rank.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/migrations/0003_auto_20200214_2005.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/migrations/0004_auto_20200214_2052.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/migrations/0005_auto_20200214_2053.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/migrations/0006_auto_20200214_2116.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/migrations/0007_auto_20200214_2215.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/migrations/0008_auto_20200311_0129.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/static/css/cs-home.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/static/images/cs-background.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/templates/cs-home.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/templates/music-home.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/gallery/bombardier.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/gallery/clearbridgemobile.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/gallery/ims.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/gallery/lyricfind.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/gallery/rank.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/gallery/rank_Lisfjc2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gitHubRunner/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/gitHubRunner/apps.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gitHubRunner/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/gitHubRunner/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/home/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/home/static/css/common.css" beforeDir="false" afterPath="$PROJECT_DIR$/home/static/css/common.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/static/css/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/home/static/css/home.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/templates/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/home/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/home/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/personalSiteDjango/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/personalSiteDjango/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/personalSiteDjango/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/personalSiteDjango/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/css/cs-home.css" beforeDir="false" afterPath="$PROJECT_DIR$/home/static/css/cs-home.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/templates/cs-home.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/templates/cs-home.html" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -114,6 +81,11 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
@@ -135,18 +107,6 @@
       <recent name="$PROJECT_DIR$/home/media/images" />
       <recent name="$PROJECT_DIR$/home/static/css" />
     </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager" selected="Django server.personalSiteDjango">
     <configuration name="JS Debugger" type="JavascriptDebugType" uri="http://localhost:8000/" useFirstLineBreakpoints="true">
@@ -208,6 +168,7 @@
       <workItem from="1583099779236" duration="273000" />
       <workItem from="1583102362421" duration="134000" />
       <workItem from="1583884402588" duration="7646000" />
+      <workItem from="1586574144358" duration="5532000" />
     </task>
     <servers />
   </component>
@@ -230,12 +191,38 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
+  <component name="WindowStateProjectService">
+    <state width="1878" height="243" key="GridCell.Tab.0.bottom" timestamp="1586493489475">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1878" height="243" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1586493489475" />
+    <state width="1878" height="243" key="GridCell.Tab.0.center" timestamp="1586493489474">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1878" height="243" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1586493489474" />
+    <state width="1878" height="243" key="GridCell.Tab.0.left" timestamp="1586493489467">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1878" height="243" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1586493489467" />
+    <state width="1878" height="243" key="GridCell.Tab.0.right" timestamp="1586493489474">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1878" height="243" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1586493489474" />
+    <state x="653" y="372" key="com.intellij.ide.util.TipDialog" timestamp="1586574144791">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="653" y="372" key="com.intellij.ide.util.TipDialog/1920.96.1440.900/0.0.1920.1080@0.0.1920.1080" timestamp="1586574144791" />
+    <state x="301" y="247" width="837" height="550" key="find.popup" timestamp="1586582719720">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="301" y="247" width="837" height="550" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1586582719720" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="django-line">
           <url>file://$PROJECT_DIR$/home/templates/cs-home.html</url>
-          <line>26</line>
+          <line>27</line>
           <option name="timeStamp" value="7" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">

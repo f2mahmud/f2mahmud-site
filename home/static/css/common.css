@@ -4,17 +4,24 @@
     list-style: none;
 }
 
-body{
+body {
     height: 100vh;
     width: 100vw;
     background: azure;
 }
 
-.footer{
+.footer {
     height: 15%;
     color: silver;
 }
 
-.main-content{
-    background: azure;
+.main-content {
+    background: white;
+}
+
+
+* {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
 }
