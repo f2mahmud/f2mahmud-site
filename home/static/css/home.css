@@ -1,34 +1,79 @@
-#home-header{
+#home-header {
     text-align: center;
     color: deepskyblue;
     font-family: "American Typewriter";
     overflow: scroll;
 }
 
-#section-selector{
+#section-selector {
     background-color: aliceblue;
     height: 60%;
 }
 
-#section-music{
+#section-music {
     height: 100%;
-    width: 33.3%;
+    width: 27%;
+    background: url("http://bestanimations.com/Music/Instruments/Guitars/animated-burning-guitar-on-fire15.gif#.Xe8Ceb-OtJY.link") no-repeat center center;
+    background-size: cover;
+    color: white;
 }
 
-#section-cs{
+#section-cs {
     height: 100%;
-    width: 45%;
+    width: 46%;
+    background-image: url(http://bestanimations.com/Computers/funny-computer-matrix-animated-gif-42.gif#.Xe8IULbatY0.link);
+    color: white;
 }
 
-#section-gaming{
-    background: black;
-    width: 33.3%;
+#section-gaming {
+    width: 27%;
     height: 100%;
+    background: black url("http://bestanimations.com/Games/Computer/MortalCombat/mortal-kombat-animated-gif-7.gif#.Xe8JXCYp2q8.link") no-repeat center center;
+    background-size: cover;
+    color: white;
 }
 
+.topic {
+    display: none;
+    position: absolute;
+    padding: 50% 40%;
+}
 
+#section-cs .topic{
+    padding: 30%;
+}
 
-body{
+#section-gaming .topic {
+    padding: 50% 30%;
+}
+
+.zoomed-img{
+    transition: all 0.5s;
+}
+
+.zoomed-img:focus,
+.zoomed-img:hover {
+    -ms-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+    font-weight: bold;
+    font-family: Luminari;
+    font-size: 30px;
+    color: white;
+}
+
+.zoomed-img:focus span,
+.zoomed-img:hover span {
+    display: block;
+}
+
+body {
     background: black;
 }
 

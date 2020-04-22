@@ -3,9 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="00deb2e9-cc41-402e-b62b-d0e8955ee000" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/static/css/common.css" beforeDir="false" afterPath="$PROJECT_DIR$/home/static/css/common.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/static/css/cs-home.css" beforeDir="false" afterPath="$PROJECT_DIR$/home/static/css/cs-home.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/templates/cs-home.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/templates/cs-home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/static/css/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/home/static/css/home.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/home/templates/home.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -141,6 +140,9 @@
       <item itemvalue="JavaScript Debug.JS Debugger" />
     </list>
   </component>
+  <component name="ServiceViewManager">
+    <option name="showServicesTree" value="false" />
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -168,7 +170,8 @@
       <workItem from="1583099779236" duration="273000" />
       <workItem from="1583102362421" duration="134000" />
       <workItem from="1583884402588" duration="7646000" />
-      <workItem from="1586574144358" duration="5532000" />
+      <workItem from="1586574144358" duration="8906000" />
+      <workItem from="1587337998246" duration="4623000" />
     </task>
     <servers />
   </component>
@@ -192,6 +195,10 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="408" y="193" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1587351680334">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="408" y="193" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1440.900@0.0.1440.900" timestamp="1587351680334" />
     <state width="1878" height="243" key="GridCell.Tab.0.bottom" timestamp="1586493489475">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -208,14 +215,20 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1878" height="243" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1586493489474" />
-    <state x="653" y="372" key="com.intellij.ide.util.TipDialog" timestamp="1586574144791">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state x="490" y="325" key="com.intellij.ide.util.TipDialog" timestamp="1587337998472">
+      <screen x="0" y="23" width="1440" height="877" />
     </state>
+    <state x="490" y="325" key="com.intellij.ide.util.TipDialog/0.23.1440.877@0.23.1440.877" timestamp="1587337998471" />
     <state x="653" y="372" key="com.intellij.ide.util.TipDialog/1920.96.1440.900/0.0.1920.1080@0.0.1920.1080" timestamp="1586574144791" />
-    <state x="301" y="247" width="837" height="550" key="find.popup" timestamp="1586582719720">
+    <state x="301" y="350" width="837" height="550" key="find.popup" timestamp="1587529548084">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="301" y="247" width="837" height="550" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1586582719720" />
+    <state x="301" y="350" width="837" height="550" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1587529548084" />
+    <state x="401" y="296" width="1116" height="660" key="find.popup/1920.0.1440.900/0.0.1920.1080@0.0.1920.1080" timestamp="1586654098555" />
+    <state x="756" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1586669257038">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="756" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1586669257038" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
